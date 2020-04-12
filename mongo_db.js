@@ -9,5 +9,4 @@ mongoClient.connect(uri, options, (err, db) => {
  if (err) throw err;
  console.log('Database created by JamilUmar');
  createInterns(db);
- 
 });
